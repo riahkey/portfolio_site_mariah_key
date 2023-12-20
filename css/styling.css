@@ -93,6 +93,7 @@ a:active {
 .button:hover {
     opacity: 0.8;
     text-decoration: none;
+    color: #ffffff;
 }
 
 .button.contact {
