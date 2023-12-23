@@ -7,6 +7,10 @@ tan: #D8D1BE
 white: #FFFFFF
 */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #ffffff;
     font-family: 'Martel Sans', sans-serif;
@@ -107,3 +111,100 @@ a:active {
     background-color: #E78C3B;
     color: #ffffff;
 }
+
+
+header {
+    background-color: #223F61;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; width: 100%;
+     
+	background: #223F61; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6)  ; 
+	-webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6)  ; 
+	-moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6)  ;  
+}
+
+main {
+    padding-top: 165px;
+}
+
+
+/* layout styling */
+
+.container {
+    padding: 0 15px;
+}
+
+.row {
+    margin: 25px 0;
+}
+
+#my-work .row {
+    padding: 0 0 25px 0;
+    border-bottom:3px solid #D8D1BE;
+}
+
+#hero h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+#nav {
+    display: inline-block 100%
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block
+}
+
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #E78C3B;
+}
+
+nav > ul > li > a:visited {
+    color: #E78C3B;
+}
+
+nav > ul > li > a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: #D8D1BE
+}
+
+nav > ul > li > a:active {
+    color: #ffffff; 
+}
+
+#hero {
+    background-color: #223F61;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#hero p {
+    color: #ffffff; 
+    text-align: center;
+}
+
+#about h1, h2 {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
