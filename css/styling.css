@@ -269,6 +269,10 @@ body {
     width: 60%;
 }
 
+.col-lg-12 {
+    width: 100%;
+}
+
 .container {
     max-width: 1200px;
     margin-left: auto;
