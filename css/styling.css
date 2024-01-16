@@ -64,17 +64,17 @@ a {
 }
 
 a:visited {
-    color: #E78C3B;
+    color: #D8D1BE;
 }
 
 a:hover,
 a:focus {
-    color: #223F61;
+    color: #E78C3B;
     text-decoration: underline;
 }
 
 a:active {
-    color: #D8D1BE
+    color: #E78C3B
 }
 
 
@@ -118,8 +118,7 @@ a:active {
 
 header {
     background-color: #223F61;
-    padding: 10px 0;
-    text-align: center;
+    padding: 10px 0 4px;
     position: fixed; width: 100%;
      
 	background: #223F61; 
@@ -129,7 +128,7 @@ header {
 }
 
 main {
-    padding-top: 170px;
+    padding-top: 110px;
 }
 
 
@@ -163,17 +162,10 @@ main {
     max-width: 150px;
 }
 
-#nav {
-    display: inline-block 100%
-}
-
 nav > ul {
     list-style-type: none;
     padding: 0;
-}
-
-nav > ul > li {
-    display: inline-block
+    margin: 0;
 }
 
 nav > ul > li > a {
@@ -222,6 +214,42 @@ nav > ul > li > a:active {
     padding: 20px;
 }
 
+/* new stuff, for javascript */
+
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+}
+
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    font-size: 30px;
+    padding-right: 0;
+}
+
+.navtoggle.responsive li {
+    display: block;
+}
+
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba (255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
+}
+
 
 
 
@@ -256,6 +284,22 @@ body {
     margin-top: 0;
 }
 
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul {
+    margin: 1em 0;
+}
+
+.navtoggle li:not(:last-child) {
+    display: inline-block;
+}
+
+.navtoggle li:last-child {
+    display: none;
+}
+
 }
 
 
@@ -278,6 +322,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 }
 
@@ -317,3 +362,4 @@ body {
 .cloud-back {
     animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
