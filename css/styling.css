@@ -243,7 +243,7 @@ nav > ul > li > a:active {
 .navtoggle.responsive li {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid rgba (255,127,80,0.5);
+    border-top: 1px solid rgba(255,127,80,0.5);
 }
 
 .navtoggle.responsive li:last-child {
@@ -298,6 +298,15 @@ nav > ul {
 
 .navtoggle li:last-child {
     display: none;
+}
+
+.navtoggle.responsive nav {
+    padding: 0;
+}
+
+.navtoggle.responsive li {
+    padding: 0;
+    border-top: 0;
 }
 
 }
