@@ -2,11 +2,13 @@
 Colors used::
 black: #000000
 blue: #223F61
+new blue: #203A5A
 orange: #E78C3B
+other orange: #B63800
 tan: #D8D1BE
 white: #FFFFFF
 */
-
+    
 * {
     box-sizing: border-box;
 }
@@ -59,7 +61,7 @@ img {
 }
 
 a {
-    color: #E78C3B;
+    color: #B63800;
     text-decoration: none;
 }
 
@@ -69,18 +71,18 @@ a:visited {
 
 a:hover,
 a:focus {
-    color: #E78C3B;
+    color: #B63800;
     text-decoration: underline;
 }
 
 a:active {
-    color: #E78C3B
+    color: #B63800;
 }
 
 
 .button {
     display: inline-block;
-    background-color: #E78C3B;
+    background-color: #B63800;
     color: #ffffff;
     /* needed to override the default link color */
     font-weight: 400;
@@ -102,26 +104,27 @@ a:active {
 }
 
 .button.contact {
-    background-color: transparent;
-    color: #E78C3B;
+    background-color: #203A5A;
+    color: #FFFFFF;
     text-transform: uppercase;
-    border: 2px solid #E78C3B;
+    border: 2px solid transparent;
     transition: 0.2s opacity;
     padding-top: 14px;
 }
 
 .button.contact:hover {
-    background-color: #E78C3B;
-    color: #ffffff;
+    background-color: transparent;
+    color: #203A5A;
+    border: 2px solid #203A5A;
 }
 
 
 header {
-    background-color: #223F61;
+    background-color: #203A5A;
     padding: 10px 0 4px;
     position: fixed; width: 100%;
      
-	background: #223F61; 
+	background: #203A5A; 
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6)  ; 
 	-webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6)  ; 
 	-moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6)  ;  
@@ -129,6 +132,10 @@ header {
 
 main {
     padding-top: 110px;
+}
+
+.social.media {
+    padding-top: 20px;
 }
 
 
@@ -249,7 +256,6 @@ nav > ul > li > a:active {
 .navtoggle.responsive li:last-child {
     padding: 0 0 10px;
 }
-
 
 
 
