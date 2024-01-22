@@ -1,4 +1,4 @@
-
+console.log ("Hi! Welcome to my Portolio Site")
 
 function menuToggle() {
     var x = document.getElementById('myNavtoggle');
