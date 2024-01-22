@@ -221,6 +221,11 @@ nav > ul > li > a:active {
     padding: 20px;
 }
 
+.col-centered {
+    margin: 0 auto;
+    float: none;
+}
+
 /* new stuff, for javascript */
 
 .navtoggle li:not(:last-child) {
@@ -259,6 +264,7 @@ nav > ul > li > a:active {
 
 
 
+
 /*media queries*/
 
 @media only screen and (min-width: 640px) {
@@ -284,6 +290,14 @@ body {
 
 .col-md-6 {
     width: 50%;
+}
+
+.col-md-7 {
+    width: 60%
+}
+
+.col-md-8 {
+    width: 70%;
 }
 
 #about h3 {
@@ -322,6 +336,10 @@ nav > ul {
 
 .col-lg-5{
     width: 40%;
+}
+
+.col-lg-6 {
+    width: 50%;
 }
 
 .col-lg-7 {
